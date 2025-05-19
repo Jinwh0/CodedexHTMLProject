@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitterSweet</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    header {
+        background-color: #333;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+    }
+    
+    main {
+        padding: 20px;
+    }
+    section {
+        margin-bottom: 20px;
+    }
+    article {
+        margin-bottom: 20px;
+    }
+    footer {
+        text-align: center;
+        padding: 10px 0;
+        background-color: #333;
+        color: white;
+    }
+</style>
+<body>
+    <header>
+        <img src="/Restaurant-pictures/bittersweet-logo.png" alt="Logo" style="width: 200px; height: auto;">
+            <h1></h1>
+            <nav>
+                <h2><a href="#menu">Menu</a></h2>
+                <h2><a href="#order-form">Order form</a></h2>
+            </nav>
+    </header>
+        <main>
+            <section id="menu">
+                <h2>Menu</h2>
+                    <article>
+                        <img src="/Restaurant-pictures/bittersweet-chocoCake.png" alt="Food 1" style="width: 100px; height: auto;">
+                        <h3>Choco Cake (Menu number 1)</h3>
+                        <p>Our Choco Cake is rich, moist, and layered with silky chocolate ganache. Perfect for chocolate lovers craving a deep, indulgent treat.</p>
+                    </article>
+                    <article>
+                        <img src="/Restaurant-pictures/bittersweet-oreoCheeseCake.png" alt="Food 1" style="width: 100px; height: auto;">
+                        <h3>Oreo Cheesecake (Menu number 2)</h3>
+                        <p>A creamy cheesecake loaded with chunks of Oreo cookies on a crunchy cookie crust. Each bite offers a perfect balance of sweet and tangy with a delightful cookie crunch.</p>
+                    </article>
+                    <article>
+                        <img src="/Restaurant-pictures/bittersweet-Redvelvet.png" alt="Food 1" style="width: 100px; height: auto;">
+                        <h3>Red Velvet (Menu number 3)</h3>
+                        <p>This classic Red Velvet cake is soft, fluffy, and finished with a smooth cream cheese frosting. Its vibrant color and hint of cocoa make it both eye-catching and delicious.</p>
+                    </article>
+            </section>
+
+            <section id="order-form">
+                <h2>Place your order</h2>
+                    <form action="">
+                        <label for="number">Menu number:</label>
+                        <input type="number" id="number" name="number" placeholder="0" required min="1" max="3">
+                        <br> <br>
+                        <label for="ads-on">Ads-On:</label> <br>
+                        <input type="checkbox" id="ads-on1" name="ads-on1" value="ads-on1"> 
+                        <label for="ads-on1">extra creme</label> <br>
+
+                        <input type="checkbox" id="ads-on2" name="ads-on2" value="ads-on2">
+                        <label for="ads-on2">choco syrup</label> <br>
+
+                        <input type="checkbox" id="ads-on3" name="ads-on3" value="ads-on3">
+                        <label for="ads-on3">icing</label> <br>
+
+                        <input type="checkbox" id="ads-on4" name="ads-on4" value="ads-on4">
+                        <label for="ads-on4">dedicated name</label>
+                        <br><br>
+                        <label for="request">Special request</label> <br>
+                        <textarea name="request" id="request"></textarea>
+                        <br><br>
+                        <input type="submit" value="Go to checkout">
+                        <input type="reset" value="Reset">
+                    </form>
+            </section>
+        </main>
+        <footer>
+            <p>Made with love by:Jinwoo</p>
+        </footer>
+    
+</body>
+</html>
